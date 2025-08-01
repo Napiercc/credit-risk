@@ -1,0 +1,22 @@
+# 忽略 Python 缓存
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 忽略模型权重和中间结果
+models/
+
+# 忽略 IDE 配置
+.idea/
+.vscode/
+
+# 忽略日志和输出
+*.log
+*.out
+*.tmp
+
+# 忽略临时文件
+*.swp
+*.bak
+*.~ 
