@@ -19,7 +19,7 @@ headers = {
 }
 
 # ——— 读取数据 ———
-input_path = r"D:\credit_risk\credit-risk - 副本 (2)\data\raw\500_sample\credit_risk_dataset_500_with_label.csv"
+input_path = r"data\raw\500_sample\credit_risk_dataset_500_with_label.csv"
 df = pd.read_csv(input_path, encoding="utf-8-sig")
 
 # ——— 字段检查 ———

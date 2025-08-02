@@ -100,7 +100,7 @@ def format_confusion_and_metrics(y_true, y_pred):
 
 # 模型评估
 def evaluate():
-    image_save_dir = r"D:\credit_risk\credit-risk-3channel\data\re\500_170_moe_4_3.0"
+    image_save_dir = r"data\re\10000_170_moe_4"
     os.makedirs(image_save_dir, exist_ok=True)
     report_path = os.path.join(image_save_dir, 'evaluation_report.txt')
 
